@@ -41,3 +41,28 @@
 .games>div>div>div>a>img:hover{
     opacity: 1;
 }
+
+@media screen and (max-width:1150px) {
+
+    .title{
+        color: white;
+        padding: 30px 0 0 30px;
+        font-family: cursive;
+        font-weight: 200;
+    }
+    
+    .games>div>div{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .games{
+        padding-top: 230px;
+        display: grid;
+    }
+    .games>div{
+        justify-self: center;
+    }
+
+}

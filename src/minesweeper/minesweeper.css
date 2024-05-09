@@ -61,3 +61,13 @@
     margin-top: 30px;
     font-family: cursive;
   }
+
+  @media screen and (max-width:1150px) {
+    .title_ms{
+      font-size: 3rem;
+    }
+
+    .cell_box{
+      padding-top: 40px;
+    }
+  }
