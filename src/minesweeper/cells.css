@@ -1,0 +1,19 @@
+#cell{
+    text-align: center;
+    color: white;
+}
+
+.cell_button{
+    min-height: 35px;
+    min-width: 35px;
+    height: fit-content;
+    width: fit-content;
+    padding: 0;
+    opacity:1; 
+}
+
+button:disabled,button[disabled]{
+    background-color: dimgrey;
+    opacity: 1;
+    cursor:not-allowed !important;
+  }
