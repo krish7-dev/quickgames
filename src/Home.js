@@ -1,7 +1,7 @@
 import './home.css';
 import ms from './media/images/ms.png'
 import bs from './media/images/bs.png'
-
+import hm from './media/images/hm.png'
 function Home(){
     return(
         <div className="home">
@@ -10,7 +10,7 @@ function Home(){
                 <div>
                     <div>
                         <div><a href="/minesweeper"><img src={ms}></img></a></div>
-                        <div><a href="#"><img src={bs}></img></a></div>
+                        <div><a href="/hangman"><img src={hm}></img></a></div>
                         <div><a href="#"><img src={bs}></img></a></div>
                     </div>
                     <div>
